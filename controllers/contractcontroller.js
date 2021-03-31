@@ -87,3 +87,21 @@ exports.deleteContract = async (req, res, next) => {
         return next(err);
     }
 };
+
+// @desc     Convert contract to pdf
+// @route    GET /api/v1/contract/:contractId
+// @access   Private
+exports.convertContractToPdf = async (req, res, next) => {
+    try {
+
+        // Get all data from contract
+        const contract = await Contract.findById(req.params.contractId);
+        
+        // Get html template and insert data
+
+        // return to client
+    }
+    catch(err) {
+        return next(err);
+    }
+};

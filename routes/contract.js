@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const {
+    convertContractToPdf,
     createContract, 
     deleteContract, 
     getAllContracts, 
@@ -17,5 +18,8 @@ router.route('/:contractId')
     .get(authorizeRequest, getContractById)
     .put(authorizeRequest, updateContract)
     .delete(authorizeRequest, deleteContract);
+
+router.route('/pdf/:contractId')
+    .get(authorizeRequest, convertContractToPdf);
 
 module.exports = router;

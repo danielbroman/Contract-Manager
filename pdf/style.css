@@ -1,0 +1,171 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+.cmr-tag {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: flex-end;
+}
+
+.cmr-abr {
+  margin-right: 50px;
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cmr-description {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.main-container {
+  background-color: white;
+  height: 1136px;
+  width: 803px;
+}
+
+.inner-container {
+  background-color: white;
+  height: 1100px;
+  width: 780px;
+  margin-left: 11.5px;
+}
+
+.first-section {
+  display: flex;
+  flex-flow: wrap column;
+  height: 440px;
+}
+
+.info-box {
+  height: 85px;
+  width: 385px;
+  padding-left: 5px;
+  display: flex;
+  flex-flow: nowrap column;
+}
+
+.info-box-date {
+  height: 85px;
+  width: 390px;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+}
+
+.description-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 30px;
+}
+
+.goods-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 30px;
+  font-size: 18px;
+}
+
+.marks-numbers {
+  flex-grow: 3;
+}
+
+.package-description {
+  flex-grow: 2;
+}
+
+.package-weight {
+  flex-grow: 1;
+}
+
+.package-volume {
+  flex-grow: 1;
+}
+
+.daily-date {
+  margin-top: 32px;
+}
+
+.heading {
+  font-size: 13px;
+}
+
+.normal-text {
+  line-height: 1.1;
+  font-size: 16px;
+}
+
+.info-box-double {
+  height: 171px;
+  width: 385px;
+  display: flex;
+  flex-flow: wrap row;
+  padding-left: 5px;
+}
+
+.additional-notes {
+  flex-grow: 1;
+}
+
+.company-name {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.second-section {
+  height: 200px;
+  width: 780px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.third-section {
+  width: 780px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.job-description {
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+
+.signature-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: auto;
+}
+
+.signature-box {
+  flex-grow: 1;
+  min-height: 150px;
+}
+
+.border-top {
+  border-top: 1px solid black;
+}
+
+.border-left {
+  border-left: 1px solid black;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.border-all {
+  border: 1px solid black;
+}

@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const SignatureSchema = new mongoose.Schema({
     signature: {
-        type: String,
-        required: true
+        data: Buffer, 
+        contentType: String,
     },
     signatureDate: {
         type: Date,
